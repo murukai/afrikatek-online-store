@@ -14,9 +14,9 @@ import java.math.BigDecimal;
 import com.afrikatek.store.domain.enumeration.Size;
 
 /**
- * Product by Afrikatek Online STore
+ * Product by Afrikatek Online Store
  */
-@ApiModel(description = "Product by Afrikatek Online STore")
+@ApiModel(description = "Product by Afrikatek Online Store")
 @Entity
 @Table(name = "product")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
